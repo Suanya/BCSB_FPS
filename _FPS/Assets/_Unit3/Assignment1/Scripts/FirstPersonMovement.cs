@@ -18,7 +18,7 @@ public class FirstPersonMovement : MonoBehaviour
         rotation *= Time.deltaTime;
 
         // move translation along object's z-axis
-        transform.Translate(0, 0, translation);
+        transform.Translate(0, 0, -translation);
 
         // rotate aroung our y-axis
         transform.Rotate(0, rotation, 0);
